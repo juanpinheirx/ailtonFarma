@@ -1,0 +1,17 @@
+#header {
+  background-color: #eb3016;
+  height: 100px;
+  display: flex;
+}
+
+#bandeira {
+  width: 120px;
+  margin-left: 0%;
+}
+
+#titulo {
+  margin-left: 3%;
+  margin-top: 1, 5%;
+  color: white;
+  font-size: 2rm;
+}
