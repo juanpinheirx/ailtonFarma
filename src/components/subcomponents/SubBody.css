@@ -1,0 +1,16 @@
+#subbody {
+  display: flex;
+  margin: 5%;
+}
+
+img {
+  /* width: 50%; */
+  height: 50%;
+  /* margin: 5%; */
+}
+
+.titulo {
+  margin-top: 40px;
+  margin-bottom: -30px;
+  color: #B70B0B;
+}

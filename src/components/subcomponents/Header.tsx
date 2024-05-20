@@ -12,8 +12,6 @@ export const Header = () => {
         <h1 id='titulo'>FARMÁCIA AILTON FARMA</h1>
         <div id='button'>
           <Button />
-          <Button />
-          <Button />
         </div>
       </div>
     </>
