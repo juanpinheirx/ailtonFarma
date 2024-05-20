@@ -1,0 +1,19 @@
+#footer {
+  background-color: #eb3016;
+  /* height: 100px; */
+  display: flex;
+}
+
+
+#titulo-footer {
+  margin-left: 3%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#social-network {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 25px;
+}
