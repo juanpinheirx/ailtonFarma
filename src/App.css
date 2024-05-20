@@ -6,3 +6,15 @@ body {
   font-size: x-large;
   text-align: center;
 }
+
+@media screen and (min-width: 600px) {
+  body {
+    font-size: small
+  }
+}
+
+@media (max-width: 599px) {
+  body {
+    font-size: small;
+  }
+}

@@ -21,3 +21,14 @@
   margin-left: 25%;
   margin-top: 12px;
 }
+
+@media screen and (max-width: 599px) {
+  #titulo {
+    font-size: medium;
+    margin-left: 3%;
+  }
+  #button {
+    margin-left: 25%;
+    margin-top: 12px;
+  }
+}

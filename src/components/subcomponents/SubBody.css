@@ -14,3 +14,20 @@ img {
   margin-bottom: -30px;
   color: #B70B0B;
 }
+
+@media screen and (max-width: 599px) {
+  .titulo {
+    margin-bottom: 30px;
+  }
+
+  #subbody {
+    font-size: medium;
+    margin-left: 3%;
+  }
+  
+  .btn {
+    font-size: xx-small;
+    margin-left: -3px;
+  }
+
+}
