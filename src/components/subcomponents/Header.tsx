@@ -1,6 +1,5 @@
-import './Header.css';
+import '../Body.css';
 import logo from '../../assets/LOGO.svg'; // Import the logo using ES6 import syntax
-import { Button } from '../utils/Button';
 
 export const Header = () => {
   return (
@@ -11,7 +10,21 @@ export const Header = () => {
         </div>
         <h1 id='titulo'>FARMÁCIA AILTON FARMA</h1>
         <div id='button'>
-          <Button />
+          <div id='buttons2'>
+            <button type='button' className='btn btn-light' name='Link'>
+              INÍCIO
+            </button>
+          </div>
+          <div id='buttons2'>
+            <button type='button' className='btn btn-light' name='Link'>
+              COMPRAR
+            </button>
+          </div>{' '}
+          <div id='buttons2'>
+            <button type='button' className='btn btn-light' name='Link'>
+              SOBRE
+            </button>
+          </div>
         </div>
       </div>
     </>

@@ -1,4 +1,3 @@
-import './Footer.css';
 import instagram from '../../assets/Instagram Circle.svg';
 import whatsapp from '../../assets/WhatsApp.svg';
 
