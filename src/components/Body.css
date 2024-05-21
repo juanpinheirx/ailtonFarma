@@ -20,46 +20,52 @@
   /* margin-left: 25%; */
   display: flex;
   float:right;
-  margin-top: 12px;
+  margin-top: 15px;
   padding: 10px;
   position: absolute;
   right: 0;
 }
 
 #buttons2 {
-  text-align: end;
+  /* text-align: end; */
+  margin-right: 1em;
 }
 
 @media screen and (max-width: 600px) {
   #header {
     height: 100px;
     display: flex;
+    width: 100%;
   }
-  #bandeira {
-    height: 100px;
-    background: transparent;
-  }
+
   #titulo {
-    /* font-size: 2rem; */
-    position: relative;
-    z-index: 1;
-    margin-top: 1.0rem;
-    margin-bottom: 30px;
-    text-wrap: wrap;
-  }
-  #button {
-    /* margin-left: 25%; */
-    z-index: 0;
-    position: relative;
-    display: flex;
-    float:right;
-    margin-top: 40px;
-    padding: 10px;
     position: absolute;
-    right: 0;
+    z-index: 2;
+    font-size: medium;
+    margin-top: 1rem;
+    margin-left: 9.0rem;
+    margin-bottom: 15rem;;
   }
+
+  #bandeira {
+    position: absolute;
+    float: left;
+    margin-left: -10px;
+  }
+
+  #button {
+    position: absolute;
+    z-index: 1;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 1rem; */
+    box-sizing: content-box;
+    padding: 100px;
+    padding-top:10%;
+    /* padding-bottom: 200rem; */
+    width:45%;
+  }
+
   #buttons2 {
-    text-align: end;
+    margin: 0%;
   }
-  
 }

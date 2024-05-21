@@ -1,0 +1,34 @@
+#subbody {
+  display: flex;
+  position: relative;
+  margin-left: 15rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+#card {
+  position: relative;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #subbody {
+    display: flex;
+    margin-left: 0%;
+  }
+
+  #card {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: small;
+  }
+
+  
+}

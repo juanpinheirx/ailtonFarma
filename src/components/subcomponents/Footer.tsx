@@ -1,3 +1,4 @@
+import './Footer.css'
 import instagram from '../../assets/Instagram Circle.svg';
 import whatsapp from '../../assets/WhatsApp.svg';
 
@@ -15,6 +16,7 @@ export const Footer = () => {
             <img src={whatsapp} alt='' />
           </a>
         </div>
+        <h1 id="devs">Desenvolvido por Juan, Iderlan, Vivian, Yasmin e Lukas</h1>
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+import './SubBody.css';
 import dipirona from '../../assets/Rectangle 4.svg';
 import torsilax from '../../assets/Rectangle 5.svg';
 import mioflex from '../../assets/Rectangle 6.svg';
