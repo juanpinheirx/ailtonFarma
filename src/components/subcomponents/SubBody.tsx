@@ -15,7 +15,7 @@ export const SubBody = () => {
             <p className='card-text'>
               Este é um medicamento à base de dipirona.
             </p>
-            <a href='#' className='btn btn-primary'>
+            <a href='https://api.whatsapp.com/send/?phone=5582987357475&text&type=phone_number&app_absent=0' className='btn btn-primary'>
               Quero comprar
             </a>
           </div>
@@ -28,7 +28,7 @@ export const SubBody = () => {
             <p className='card-text'>
               Indicado para o tratamento de reumatismo.
             </p>
-            <a href='#' className='btn btn-primary'>
+            <a href='https://api.whatsapp.com/send/?phone=5582987357475&text&type=phone_number&app_absent=0' className='btn btn-primary'>
               Quero comprar
             </a>
           </div>
@@ -41,7 +41,7 @@ export const SubBody = () => {
             <p className='card-text'>
               O seu medicamento de referência é o Tandrilax.
             </p>
-            <a href='#' className='btn btn-primary'>
+            <a href='https://api.whatsapp.com/send/?phone=5582987357475&text&type=phone_number&app_absent=0' className='btn btn-primary'>
               Quero comprar
             </a>
           </div>
